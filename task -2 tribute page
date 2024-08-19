@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+<style>
+body {
+    
+    font-family: Arial, sans-serif;
+    background-color: #030202;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #dbd5d5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    border-bottom: 2px solid #333;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.profile-img {
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.bio, .achievements, .quote {
+    margin: 20px 0;
+}
+
+.bio p, .achievements ul {
+    text-align: left;
+    line-height: 1.6;
+}
+
+.achievements ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+.quote blockquote {
+    font-size: 1.5em;
+    font-style: italic;
+    color: #555;
+    border-left: 5px solid #333;
+    padding-left: 20px;
+}
+
+footer {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #333;
+    color: #666;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.2em;
+}</style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>veer Damodar savarkar </h1>
+            <p> Indian politician, activist and writer</p>
+        </header>
+
+        <main>
+            <img src="savarkar.jpeg" alt="veer  Damodar sarvarkar " class="profile-img">
+            <section class="bio">
+                <h2>Biography</h2>
+                <p>Savarkar
+                    Born	28 May 1883
+                    Bhagur, Nasik district, Bombay Presidency, British India
+                    (present-day Nashik, Maharashtra)
+                    Died	26 February 1966 (aged 82)
+                    Bombay, Maharashtra, India
+                    Nationality	British Indian (1883-1947)
+                    Indian (1947-1966)
+                    Other names	Veer Savarkar
+                    Swatantryaveer
+                    Occupation(s)	Politician, activist, writer
+                    Known for	Hindutva
+                    Political party	Hindu Mahasabha
+                    Spouse	Yamunabai
+                    ​
+                    ​(m. 1901; died 1963)​[1]
+                    Relatives	Ganesh Damodar Savarkar (brother).</p>
+            </section>
+
+            <section class="achievements">
+                <h2>Achievements</h2>
+                <ul>
+                    <li>As president of the Hindu Mahasabha political party,</li>
+                    <li> a powerful orator and writer who advocated Hindu political and social unity</li>
+                    <li>Authored several inspiring books-" the Hindu Pad-pada-shahi – a book documenting the Maratha empire – and My Transportation for Life – an account of his early revolutionary days, arrest, trial and incarceration."</li>
+                    
+                </ul>
+            </section>
+
+            <section class="quote">
+                <h2>Inspirational Quote</h2>
+                <blockquote>
+                    "An educated mind is the greatest weapon in the struggle for freedom"
+                </blockquote>
+            </section>
+        </main>
+
+        <footer>
+            <p> vinayak damodar savarkar - An Inspiration Forever</p>
+        </footer>
+    </div>
+</body>
+</html>
