@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+   
+    <style>body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        line-height: 1.6;
+        
+    }
+    
+    header {
+  background-color: black;
+        color: #670000;
+        padding: 10px 0;
+    }
+    
+    header nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: right;
+        margin: 0;
+        padding: 0;
+        color:black;
+    }
+    
+    header nav ul li {
+        margin: 30px;
+        padding: 2%;;
+    }
+    
+    header nav ul li a {
+        color: #f0cece;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    
+    #hero {
+        background-image: url() no-repeat center center/cover;
+        height: 100vh;
+        color: #6924ff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #hero h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+        
+
+    }
+.logo {
+font-size: 1cm;
+color:indianred;
+padding:10px;
+letter-spacing: 3px;
+
+}
+.hire  button {
+    padding: 0PX;
+    font-size: 20px;
+    margin:10px;
+    text-align: right;
+    BACKGROUND-COLOR:rgb(175, 215, 106);
+    COLOR:BLACK;
+  border-left:0.6cm;
+align-items:center;
+margin-left: 49%;
+
+  transition:3s;
+
+}
+
+
+    #about, #skills, #projects, #contact {
+        padding: 60px 20px;
+        text-align:center;
+        COLOR:WHITE;
+    }
+    
+    h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    
+    #skills ul {
+        list-style: none;
+      
+        padding: 0;
+    }
+    
+    #skills ul li {
+        display: inline-block;
+        margin: 0 15px;
+        font-size: 18px;
+        
+    }
+    
+    .project {
+        background: #855e5e;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 5px;
+        width: 80%;
+        max-width: 800px;
+    }
+    
+    footer {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    footer p {
+        margin: 0px;
+    }
+    </style>
+</head>
+<body>
+    <div class="logo">PRATIK</div>
+    <header>
+      
+
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Hello, I'm PRATIK</h1>
+        <p>Web Developer | Designer | Programmer</p>
+
+     <img src="C:\Users\cd330\OneDrive\Pictures\port.jpg">
+    </section>
+    <div CLASS="hire me"><button>HIRE ME</button> </div> 
+
+    <section id="about">
+        <h2>About Me</h2>
+       <p>Hy i am pratik trivedi. </p> I  am frountend devloper </p>
+            Student of computer science engineering  (cse-B.tech), 
+    </P> GEETANJALI INSTITUDE OF TECHNICAL STUDIES , UDAIPUR 
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java</li>
+            <li>c programimg language </li>
+            <li>c++</li>
+            <ii>Canva </ii>
+            <li>graphics design</li>
+            <li> vdeoediting   </li>photography </li>
+        </ul>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>first project landing page the landing page are based on food recepie ,in which website to explore food recepie the are helping in indian food recepie , </p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>The secound project are tribute page in which we are learn about veer savarkar (indian revolutionary person ) in which we are know about on veer savarkar <p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+      
+ <div class="social-icons" ></div>
+<a href="https://www.linkedin.com/in/pratik-trivedi-7138a6295" class="linkedin" target="_blank"><i class="fab fa-linkedin"></i><p>linkdin</p></a></li><a href="https://www.instagram.com/pratik_k_trivedi70?igsh=NGFzNWZsazUxOGVo" class="instagram" target="_blank"><i class="fab fa-instagram"></i><P>instagram </P></a></li>
+    <a href="https://mail.google.com/mail/u/0/#inbox" class="email"><i class="fas fa-envelope"></i>Email</a></li>
+        
+    </section>
+
+    <footer>
+        <p>pratiktrivedi268@gmail.com  </p>
+    </footer>
+</body>
+</html>
